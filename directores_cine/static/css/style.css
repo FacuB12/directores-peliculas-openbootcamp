@@ -1,5 +1,5 @@
 body {
-    background-color: #333;
+    background-color: #000;
     color: #fff;
   }
   
@@ -14,7 +14,7 @@ body {
   }
   
   form {
-    border: solid white 2px;
+    border: solid rgb(62, 123, 255) 2px;
     border-radius: 20px;
     margin-top: 2%;
     margin-left: auto;
@@ -22,15 +22,16 @@ body {
     width: 35vw;
     padding: 1%;
   }
-  
-  a{
-    color: black;
+
+  a {
+    color: #fff;
   }
   
-  a:hover{
+  a:hover {
     color: red;
   }
   
-  a:active{
+  a:active {
     color: blue;
   }
+

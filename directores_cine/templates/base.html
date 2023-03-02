@@ -10,25 +10,25 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
     <link rel="stylesheet" href="{% static 'css/style.css' %}" />
-    <link rel="shortcut icon" href="{% static 'images/favicon.png' %}">
+    <link rel="shortcut icon" href="{% static 'images/claqueta.png' %}">
     {% block links %}{% endblock %}
-    <title>SAD | {{titulo}}</title>
+    <title>SD | {{titulo}}</title>
 </head>
 
 <body class="container-fluid">
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #17202a  ;">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
                 aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" href="{% url 'index'%}"><img class="mr-1" src="{% static 'images/favicon.png' %}"
-                    alt="logo">SD</a>
+            <a class="navbar-brand" href="{% url 'index'%}"><img class="mr-1" src="{% static 'images/claqueta.png' %}"
+                    alt="logo" width="30px" height="30px">SD</a>
 
             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     {% if pagina == "home" %}
-                    <li class="nav-item active bg-info">
+                    <li class="nav-item active bg-danger">
                         <a class="nav-link" href="{% url 'index' %}">Home</a>
                     </li>
                     {% else %}
@@ -38,7 +38,7 @@
                     {% endif %}
 
                     {% if pagina ==  'directores' %}
-                    <li class="nav-item active bg-info">
+                    <li class="nav-item active bg-danger">
                         <a class="nav-link" href="directores">Directores</a>
                     </li>
                     {% else %}
@@ -48,7 +48,7 @@
                     {% endif %}
 
                     {% if pagina ==  'peliculas' %}
-                    <li class="nav-item active bg-info">
+                    <li class="nav-item active bg-danger">
                         <a class="nav-link" href="peliculas">Peliculas</a>
                     </li>
                     {% else %}

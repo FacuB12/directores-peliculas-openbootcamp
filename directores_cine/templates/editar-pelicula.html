@@ -2,11 +2,11 @@
 
 {% block content %}
 <form method="POST" class="d-flex flex-column justify-content-between align-items-center">
-    {%ifequal modo 'editar'%}
+    {%if modo == 'editar'%}
     <h2 class="text-center">Editar Pelicula</h2>
     {% else %}
     <h2 class="text-center">Nueva Pelicula</h2>
-    {% endifequal %}
+    {% endif %}
     {% csrf_token %}
     {% for field in form %}
     <div class="form-group">
