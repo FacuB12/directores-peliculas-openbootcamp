@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+<p class="text-left lead my-3 ml-1">
+    Sistema de Directores de cine donde se podrán ver las Peliculas dirigidas por cada uno de ellos y también una breve descripción de las mismas</p>
+<h2>Tablas</h2>
+<ul class="ml-5 list-group ">
+    <li class="list-group-item list-group-item-light">
+        <a href="directores">Directores</a>
+        <span class="badge badge-primary badge-pill">{{nro_directores}}</span>
+    </li>
+    <li class="list-group-item list-group-item-light">
+        <a href="peliculas">Peliculas</a>
+        <span class="badge badge-primary badge-pill">{{nro_peliculas}}</span>
+    </li>
+</ul>
+
+{% endblock %}
