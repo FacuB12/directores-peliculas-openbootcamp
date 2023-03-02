@@ -1,0 +1,54 @@
+[
+    {
+        "model": "directores_cine.director",
+        "pk": 1,
+        "fields": {
+            "nombre": "Martin Charles",
+            "apellido": "Scorsese",
+            "fecha_nacimiento": "1942-11-17",
+            "nacionalidad": "Estadounidense"
+        }
+    },
+    {
+        "model": "directores_cine.director",
+        "pk": 2,
+        "fields": {
+            "nombre": "Thomas",
+            "apellido": "Carter",
+            "fecha_nacimiento": "1956-07-17",
+            "nacionalidad": "Estadounidense"
+        }
+    },
+    {
+        "model": "directores_cine.director",
+        "pk": 3,
+        "fields": {
+            "nombre": "Steven Allan",
+            "apellido": "Spielberg",
+            "fecha_nacimiento": "1946-12-18",
+            "nacionalidad": "Estadounidense"
+        }
+    },
+    {
+        "model": "directores_cine.director",
+        "pk": 4,
+        "fields": {
+            "nombre": "Rob",
+            "apellido": "Cohen",
+            "fecha_nacimiento": "1951-03-12",
+            "nacionalidad": "Estadounidense"
+        }
+    },
+    {
+        "model": "directores_cine.director",
+        "pk": 5,
+        "fields": {
+            "nombre": "Christopher",
+            "apellido": "Nolan",
+            "fecha_nacimiento": "1970-07-30",
+            "nacionalidad": "Britanico"
+        }
+    }
+
+
+]

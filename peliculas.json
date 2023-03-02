@@ -1,0 +1,53 @@
+[
+    {
+        "model": "directores_cine.pelicula",
+        "fields": {
+            "titulo": "Taxi Driver",
+            "descripcion": "Para sobrellevar el insomnio crónico que sufre desde su regreso de Vietnam, Travis Bickle (Robert De Niro) trabaja como taxista nocturno en Nueva York. Es un hombre insociable que apenas tiene contacto con los demás, se pasa los días en el cine y vive prendado de Betsy (Cybill Shepherd), una atractiva rubia que trabaja como voluntaria en una campaña política. Pero lo que realmente obsesiona a Travis es comprobar cómo la violencia, la sordidez y la desolación dominan la ciudad. Y un día decide pasar a la acción. ",
+            "fecha_estreno": "1976-02-08",
+            "duracion_minutos": 113,
+            "director_id": 1
+        }
+    },
+    {
+        "model": "directores_cine.pelicula",
+        "fields": {
+            "titulo": "Coach Carter",
+            "descripcion": "Ken Carter aceptó el trabajo como entrenador del equipo de baloncesto juvenil Richmond Oilers, en su vieja escuela de Richmond High School, después de haber sido el plusmarquista del equipo. Tomando el relevo de entrenador White, Carter se entera que los miembros del equipo son groseros e irrespetuosos. Él los hace firmar contratos individuales, dándoles instrucciones para que asistan a sus clases y mantengan un promedio académico de 2.3 (aunque los locales a los estudiantes de grado medio tienen la obligación mantener un 2.0). Carter también le pide al personal de la escuela que le entreguen informes sobre la asistencia de los jugadores. Sin embargo, tres jugadores, entre ellos Timo Cruz, se niegan a seguir el contrato y abandonan el equipo. Carter entrena al equipo, imponiendo una estricta disciplina, lo que les permite ganar su primer partido. El hijo del entrenador (Carter), Damien, se une al equipo, después de abandonar la escuela San Francisco para así poder jugar con su padre. ",
+            "fecha_estreno": "2005-01-13",
+            "duracion_minutos": 136,
+            "director_id": 2
+        }
+    },
+    {
+        "model": "directores_cine.pelicula",
+        "fields": {
+            "titulo": "Saving Private Ryan",
+            "descripcion": "Segunda Guerra Mundial, 1944. Tras el desembarco de los Aliados en Normandía, a un grupo de soldados americanos se le encomienda una peligrosa misión: poner a salvo al soldado James Ryan. Los hombres de la patrulla del capitán John Miller deben arriesgar sus vidas para encontrar a este soldado, cuyos tres hermanos han muerto en la guerra. Lo único que se sabe del soldado Ryan es que se lanzó con su escuadrón de paracaidistas detrás de las líneas enemigas. ",
+            "fecha_estreno": "1998-06-24",
+            "duracion_minutos": 170,
+            "director_id": 3
+        }
+    },
+    {
+        "model": "directores_cine.pelicula",
+        "fields": {
+            "titulo": "The Fast and the Furious ",
+            "descripcion": "El conductor callejero y ex convicto Dominic Toretto y los miembros del Equipo de Dominic Toretto, Jesse , Leon, Vince y su novia Letty perpetran una serie de robos de camiones semi-remolques a alta velocidad, llevándose más de 6 millones de dólares en mercancía. El oficial de policía Brian O'Conner es enviado encubierto en una investigación conjunta de la policía de Los Ángeles y el FBI para detener a la banda.",
+            "fecha_estreno": "2001-06-22",
+            "duracion_minutos": 107,
+            "director_id": 4
+        }
+    },
+    {
+        "model": "directores_cine.pelicula",
+        "fields": {
+            "titulo": "Batman: The Dark Knight Rises",
+            "descripcion": "Ocho años después de la muerte del fiscal de distrito Harvey Dent y de los horribles y sangrientos eventos en Gotham City, la «Ley Dent» le garantiza poderes al Departamento de Policía de Gotham City, que casi ha erradicado el crimen organizado de la ciudad. Mientras tanto, en Extremo Oriente, tres ladrones son interrogados en un avión por agentes de la CIA para saber el paradero del peligroso terrorista Bane; sin embargo y para sorpresa de los agentes, entre los prisioneros se encuentra el propio Bane, quien les revela que su plan consistía en que lo atraparan para poder capturar al doctor Leonid Pavel, un renombrado físico nuclear, quien también estaba en el avión. Después de eso, el avión donde viajaban los agentes es derribado y éstos son asesinados por los secuaces de Bane, no sin antes llevarse con vida al doctor Pavel y hacer que todo parezca un accidente de avión. ",
+            "fecha_estreno": "2012-07-16",
+            "duracion_minutos": 165,
+            "director_id": 5
+        }
+    }
+
+]
