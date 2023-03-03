@@ -8,7 +8,7 @@ from .models import *
 def index(request):
     nro_directores = Director.objects.count()
     nro_peliculas = Pelicula.objects.count()
-    return render(request, 'index.html', {'nro_directores': nro_directores, 'nro_peliculas': nro_peliculas, 'pagina': 'home', 'titulo': 'Home'})
+    return render(request, 'index.html', {'nro_directores': nro_directores, 'nro_peliculas': nro_peliculas, 'pagina': 'home', 'titulo': 'Inicio'})
 
 
 def listar_directores(request):
